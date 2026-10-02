@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Experiment artifacts (too large for git — release separately via Zenodo)
+cyberwarenv_runs/
+runs/
+*.zip
+!figures/*.zip
+
+# Models
+models/
+*.pkl
+*.pt
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.synctex.gz
