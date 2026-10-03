@@ -1,3 +1,4 @@
+# Core scientific stack
 numpy>=1.26
 scipy>=1.11
 gymnasium>=1.0
@@ -5,3 +6,16 @@ stable-baselines3>=2.2
 torch>=2.0
 pandas>=2.0
 matplotlib>=3.8
+
+# Version pins used in the paper experiments (recorded per-run in config.json):
+#   python           : 3.12.14
+#   numpy            : 2.1.3
+#   scipy            : 1.14.1
+#   torch            : 2.14.1+cpu
+#   stable_baselines3: 2.9.0
+#   gymnasium        : 1.3.0
+#   pandas           : 2.x
+#   matplotlib       : 3.x
+#
+# Any compatible recent versions will produce equivalent numerical results.
+# For exact reproducibility of the released registry, pin to the versions above.
